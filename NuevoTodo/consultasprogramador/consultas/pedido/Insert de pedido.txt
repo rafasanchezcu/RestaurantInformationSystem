@@ -1,0 +1,5 @@
+INSERT INTO pedido VALUES ('01', '2205', 'Pechuga a la planta, con ensalada, gaseosa piña personal.', '01', '1001', '2014-08-14');
+INSERT INTO pedido VALUES ('02', '2204', 'Carne a la llanera, ensalada, vino blanco.', '03', '1001', '2014-08-14');
+INSERT INTO pedido VALUES ('03', '2203', 'Almuerzo sencillo, cerveza light.', '10', '1001', '2014-08-14');
+INSERT INTO pedido VALUES ('04', '2202', 'Carne cerdo, papas a la francesa, gaseosa coca-cola litro.', '03', '1001', '2014-08-14');
+INSERT INTO pedido VALUES ('05', '2201', 'Almuerzo Empresarial 10 personas.', '09', '1001', '2014-08-14');

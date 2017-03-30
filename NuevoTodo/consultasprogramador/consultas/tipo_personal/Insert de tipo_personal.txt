@@ -1,0 +1,5 @@
+INSERT INTO tipo_personal VALUES ('01', 'Mesero');
+INSERT INTO tipo_personal VALUES ('02', 'Cocineros ');
+INSERT INTO tipo_personal VALUES ('03', 'Mensajero ');
+INSERT INTO tipo_personal VALUES ('04', 'Administrador ');
+INSERT INTO tipo_personal VALUES ('05', 'JEFE');

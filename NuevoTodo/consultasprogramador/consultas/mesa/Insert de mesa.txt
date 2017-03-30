@@ -1,0 +1,5 @@
+INSERT INTO mesa VALUES ('01', '2', 'Sector A');
+INSERT INTO mesa VALUES ('02', '3', 'Sector A');
+INSERT INTO mesa VALUES ('03', '4', 'Sector A');
+INSERT INTO mesa VALUES ('09', '7', 'Sector B');
+INSERT INTO mesa VALUES ('05', '2', 'Sector B');

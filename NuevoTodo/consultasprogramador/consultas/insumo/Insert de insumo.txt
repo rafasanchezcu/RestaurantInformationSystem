@@ -1,0 +1,12 @@
+INSERT INTO insumo VALUES ('01', 'CARNE', '20 Libras');
+INSERT INTO insumo VALUES ('02', 'POLLO', '50 Libras');
+INSERT INTO insumo VALUES ('03', 'Bebidas Hipinto', '1O CanGas Piña
+10 CanGas Kola
+10 CanGas Manzana ');
+INSERT INTO insumo VALUES ('04', 'Cerveza', '20 Canastas Light
+20 Canastas Poker
+20 Canastas Reds');
+INSERT INTO insumo VALUES ('05', 'Frutas', '10 Manzanas
+20 Piñas
+30 Naranjas
+50 Limones ');

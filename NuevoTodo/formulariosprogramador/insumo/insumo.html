@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Insumo - Formoid online forms</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="blurBg-true" style="background-color:#EBEBEB">
+
+
+
+<!-- Start Formoid form-->
+<link rel="stylesheet" href="proveedor_files/formoid1/formoid-solid-light-green.css" type="text/css" />
+<script type="text/javascript" src="proveedor_files/formoid1/jquery.min.js"></script>
+<form class="formoid-solid-light-green" style="background-color:#FFFFFF;font-size:14px;font-family:'Roboto',Arial,Helvetica,sans-serif;color:#00aa00;max-width:480px;min-width:150px" ACTION="recibe_insumo.php" METHOD="POST">
+<div class="title"><h2>Insumo</h2></div>
+	
+<div class="element-number"><label class="title"><span class="required">Codigo De Insumo*</span></label>
+<div class="item-cont"><input class="large" type="text" min="0" max="99" name="cod_insumo" required="required" placeholder="Number" value=""/><span class="icon-place"></span></div></div>
+	
+<div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="nombre_insumo" placeholder="Name"/><span class="icon-place"></span></div></div>
+	
+<div class="element-textarea"><label class="title"></label><div class="item-cont"><textarea class="medium" name="cantidad_insumo" cols="20" rows="5" placeholder="Cantidad Del Insumo "></textarea><span class="icon-place"></span></div></div>
+
+<div class="submit"><input type="submit" value="Enviar"/></div>
+</form>
+
+<script type="text/javascript" src="proveedor_files/formoid1/formoid-solid-light-green.js"></script>
+
+<!-- Stop Formoid form-->
+
+
+
+</body>
+</html>

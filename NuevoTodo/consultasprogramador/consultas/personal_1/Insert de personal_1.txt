@@ -1,0 +1,6 @@
+INSERT INTO personal_1 VALUES ('1001', 'CARLOS', '6999898', 'zapamanga', '01', '02');
+INSERT INTO personal_1 VALUES ('1002', 'PEDRO', '6322521', 'Limoncito', '02', '01');
+INSERT INTO personal_1 VALUES ('1003', 'ANDREA', '6878484', 'NIZA', '04', '01');
+INSERT INTO personal_1 VALUES ('1004', 'RAMIRO', '632125', 'COAVICONSA', '03', '02');
+INSERT INTO personal_1 VALUES ('1005', 'RAFAEL', '6984515', 'NIZA', '05', '02');
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Mesa - Formoid html form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="blurBg-true" style="background-color:#EBEBEB">
+
+
+
+<!-- Start Formoid form-->
+<link rel="stylesheet" href="mesa_files/formoid1/formoid-solid-blue.css" type="text/css" />
+<script type="text/javascript" src="mesa_files/formoid1/jquery.min.js"></script>
+
+
+<form class="formoid-solid-blue" style="background-color:#FFFFFF;font-size:14px;font-family:'Comic Sans MS',cursive;color:#5555ff;max-width:480px;min-width:150px" ACTION="recibe_mesa.php" method="post">
+<div class="title"><h2>Mesa</h2></div>
+	
+<div class="element-number"><label class="title"><span class="required"></span></label>Id Mesa*<div class="item-cont"><input class="large" type="text" min="0" max="99" name="id_mesa" required="required" placeholder="Number" value=""/><span class="icon-place"></span></div></div>
+	
+<div class="element-number"><label class="title"></label>Cantidad Maxima De Comensales<div class="item-cont"><input class="large" type="text" min="1" max="9" name="cantmax_mesas" placeholder="Chairs Available" value=""/><span class="icon-place"></span></div></div>
+	
+<div class="element-select"><label class="title"><span class="required"></span></label>
+Ubicacion Mesa<div class="item-cont"><div class="large"><span><select name="ubicacion" required="required">
+
+		
+<option value="SectorA">SectorA</option>
+		
+<option value="SectorB">SectorB</option>
+		
+<option value="SectorC">SectorC</option></select><i></i><span class="icon-place"></span></span></div></div></div>
+
+<div class="submit"><input type="submit" value="Submit"/></div>
+</form>
+
+<p class="frmd"><a href="http://formoid.com/v28.php">html form</a> Formoid.com 2.8</p><script type="text/javascript" src="mesa_files/formoid1/formoid-solid-blue.js"></script>
+<!-- Stop Formoid form-->
+
+
+
+</body>
+</html>
